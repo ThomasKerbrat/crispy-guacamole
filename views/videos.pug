@@ -1,0 +1,8 @@
+html
+    head
+        title Vidéos
+    body
+        h1 Liste des vidéos
+        ul
+            each video in videos
+                li: a(href='#' + video.id)= video.name
